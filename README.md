@@ -17,6 +17,4 @@ docker-compose up
 ``
 - add more data to mongodb collection "oders" and "shipments" 
 - run this to see the loaded shipped_orders joined table already indexed by elastic 
-``
-curl http://localhost:9200/shipped_orders/_search?pretty
-``
+``curl http://localhost:9200/shipped_orders/_search?pretty``
