@@ -1,16 +1,16 @@
 # streaming-etl-pipeline
 
-#Set Up
-##Requiments
+## Set Up
+### Requiments
 - Ubuntu 20.04.2.0 LTS
 - Java 1.8
 - Confluent platform installed
 - docker CE
-##Config
+### Config
 - change docker-compose KAFKA_ADVERTISED_LISTENERS PLAINTEXT_HOST to your ip 
 - guide to set-up postgres, mongo, ksql server and elastic search
 (https://docs.ksqldb.io/en/latest/tutorials/etl/#create-the-customers-table-in-postgres)
-##How to run
+### How to run
 - To start the pipeline run:
 ``bash
 docker-compose up
