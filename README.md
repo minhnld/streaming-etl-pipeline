@@ -12,11 +12,11 @@
 (https://docs.ksqldb.io/en/latest/tutorials/etl/#create-the-customers-table-in-postgres)
 ### How to run
 - To start the pipeline run:
-``bash
+``
 docker-compose up
 ``
 - add more data to mongodb collection "oders" and "shipments" 
 - run this to see the loaded shipped_orders joined table already indexed by elastic 
-``bash
+``
 curl http://localhost:9200/shipped_orders/_search?pretty
 ``
